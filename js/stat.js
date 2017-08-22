@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var textParams = {
   style: '#000',
@@ -62,7 +62,7 @@ function drawCloud(ctx, params) {
 }
 
 function getRandom(min, max) {
-  return Math.random() * (max-min) + min;
+  return Math.random() * (max - min) + min;
 }
 
 function drawHistBar(ctx, barX, barY, barHeight, name, time) {
